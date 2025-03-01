@@ -1,0 +1,250 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --pink: rgb(252, 212, 225);
+  --brown: #5D4B4B;
+  --orange: #ea4e15;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+div h1 {
+  font-size: 40px;
+  color: var(--black);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+div img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 10px solid var(--brown);
+
+}
+
+div p {
+  font-size: 40px;
+  color: var(--black);
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.section_bar {
+  background-color: var(--pink);
+  padding: 20px;
+  margin: 80px auto 30px auto;
+  width: 50%;
+  border-radius: 20px;
+  border: 5PX solid var(--brown);
+  text-align: left;
+}
+
+.section_bar h2 {
+  margin: 0;
+  color: var(--orange);
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section_bar h3 {
+  margin: 0;
+  color: var(--brown);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 30PX;
+}
+
+a {
+  font-size: 30PX;
+  color: #007bff;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-icons .whatsapp:hover {
+  color: #25D366;
+}
+
+.social-icons .github:hover {
+  color: #070505;
+}
+
+.social-icons .phone:hover {
+  color: #007bff;
+}
+
+.social-icons .outlook:hover {
+  color: #0072C6;
+}
+
+
+/* Support for small screens (mobile) */
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+
+  div h1 {
+    font-size: 24px;
+  }
+
+  div img {
+    width: 120px;
+    height: 120px;
+    border: 5px solid var(--brown);
+  }
+
+  div p {
+    font-size: 14px;
+  }
+
+  .section_bar {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .section_bar h2 {
+    font-size: 15px;
+  }
+
+  .section_bar h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  p, a {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+    gap: 10px;
+  }
+}
+
+/* Support for medium screens (Tablet - 768px)  */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  div h1 {
+    font-size: 30px;
+  }
+
+  div img {
+    width: 180px;
+    height: 180px;
+  }
+
+  div p {
+    font-size: 20px;
+  }
+
+  .section_bar {
+    width: 85%;
+    padding: 18px;
+  }
+
+  .section_bar h2 {
+    font-size: 30px;
+  }
+
+  .section_bar h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  p,
+  a {
+    font-size: 22px;
+  }
+
+  .social-icons a {
+    font-size: 25px;
+    gap: 20px;
+  }
+}
+
+/* Support for large screens (Laptop/Desktop ) */
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+
+  div h1 {
+    font-size: 40px;
+  }
+
+  div img {
+    width: 300px;
+    height: 300px;
+  }
+
+  div p {
+    font-size: 35px;
+  }
+
+  .section_bar {
+    width: 70%;
+  }
+
+  .section_bar h2 {
+    font-size: 45px;
+  }
+
+  .section_bar h3 {
+    font-size: 35px;
+  }
+
+  p,
+  a {
+    font-size: 30px;
+  }
+
+  .social-icons a {
+    font-size: 30px;
+    gap: 30px;
+  }
+}
+
+/* Kholod ALswat */
